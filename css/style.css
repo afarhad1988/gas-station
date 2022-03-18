@@ -2,6 +2,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+body {
+
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -54,10 +57,23 @@
 .litres{
     width: 252px;
     height: 40px;
+    padding: 5px 40px 5px 10px;
     border: 1px solid #AFACAC;
     box-sizing: border-box;
     border-radius: 4px;
     margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.litres_button {
+    padding: 5px ;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    background-color: cornsilk;
+    cursor: pointer;
 }
 
 .m-bottom{
